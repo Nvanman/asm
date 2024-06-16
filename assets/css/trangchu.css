@@ -1,0 +1,131 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF5722;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            height: 10px;
+            width: 10px;
+            background-position:-2px -7px;
+        }
+        .logo img{
+            width: 70px;
+            margin: -10px;
+            margin-top: -30px;
+        }
+        .search-bar {
+            display: flex;
+        }
+
+        .search-bar input {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar button {
+            padding: 6px 10px;
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .user-menu a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .banner {
+            background: url('https://images.fpt.shop/unsafe/fit-in/filters:quality(80):fill(transparent)/fptshop.com.vn/Uploads/Originals/2024/5/24/638521387009244317_desk-header%20(9).png') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            background-color: #f8f8f8;
+            width: 50px;
+            border-radius: 10px;
+        }
+
+        .category {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            width: calc(25% - 40px);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .category-container{
+            text-align: center;
+        }
+        footer p {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer img{
+            height: 50px;
+            width: 50px;
+        }
+        footer{
+            height: 180px;
+        }
+        main {
+            flex: 1px;
+            margin-bottom: 100px;
+        }

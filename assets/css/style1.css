@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #111;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.boxcenter{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.warpaper{
+    text-align: center;
+    margin: 40px 0px;
+}
+h3{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform:uppercase ;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555;
+    font-weight: 600px;
+}
+.boxcenter {
+    width: 80%;  /* Or a specific width you want */
+    display: flex;
+}
+.boxsp {
+    margin: 0 10px 10px 0;
+    text-align: center;
+    width: 50%;  /* Chiều rộng bằng 50% của `.boxcenter` */
+  }
+  /* Thiết lập font chữ và màu sắc chung */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Định dạng tiêu đề */
+header {
+    background-color: #333;
+    background: url(anh/bia.png);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Định dạng menu điều hướng */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Định dạng hình ảnh sản phẩm */
+#main {
+    width: 32%; /* Chiều rộng của mỗi sản phẩm */
+    float: left;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+#main img {
+    width: 100%; /* Chiều rộng hình ảnh là 100% của đối tượng cha */
+    height: auto; /* Chiều cao tự động để giữ tỷ lệ khung hình */
+}
+
+/* Định dạng footer */
+.footer-red {
+    background: url(anh/bia.png);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-red p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Định dạng biểu tượng liên hệ */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Định dạng nút tìm kiếm */
+button:hover {
+    background-color: #ddd;
+}
+
+/* Định dạng hình ảnh sản phẩm trong container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

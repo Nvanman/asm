@@ -1,0 +1,157 @@
+header {
+    background-color: #333;
+    background: url(anh/bia.png);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-red {
+    background: url(anh/bia.png);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-red p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info img {
+    width: 30px;
+    height: 30px;
+}
+
+div img {
+    width: 300px;
+    height: 300px;
+}
+
+.fa-search {
+    color: #ccc;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+header form .tim {
+    height: 30px;
+    width: 500px;
+}
+
+header form input {
+    font-size: 20px;
+}
+
+.warpaper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxcenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+#main img {
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+}
+#main h1{
+    font-size: 14px;
+}
+footer {
+    background: url(anh/bia.png);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.header-container .logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-container .search-form {
+    flex-grow: 1;
+}
+
+.header-container .search-form input[type="text"] {
+    height: 30px;
+    width: 400px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.header-container .search-form input[type="submit"] {
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.user-actions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-actions ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.user-actions ul li a {
+    color: #fff;
+    text-decoration: none;
+}

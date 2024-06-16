@@ -1,0 +1,97 @@
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.products .card {
+    transition: transform 0.3s ease;
+}
+
+.products .card:hover {
+    transform: translateY(-10px);
+}
+/* Custom CSS styles */
+
+/* Định dạng cho phần header */
+header {
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-link {
+    font-size: 18px;
+}
+
+/* Định dạng cho phần carousel */
+#carouselExampleIndicators {
+    margin-top: 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+/* Định dạng cho các phần tiêu đề */
+h2 {
+    margin-bottom: 30px;
+}
+
+/* Định dạng cho phần sản phẩm */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Định dạng cho phần footer */
+footer {
+    margin-top: 50px;
+}
+
+footer h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Định dạng cho phần liên kết nhanh */
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.list-unstyled li a {
+    font-size: 16px;
+}
+
+/* Định dạng cho phần theo dõi */
+.follow-us a {
+    font-size: 24px;
+    margin-right: 10px;
+}
